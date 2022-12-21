@@ -9,7 +9,7 @@
 * **Data** : contains training data, unlabelled test data and enriched training data (new texts were added to existing train data to enlarge our dataset to obtain better results) 
 * **Final Submission** : contains one .csv file with ids of our french texts and predicted language difficulty level for final submission on keggle 
 
-## 1. Project Description : 
+## 1. Project Description  
 As a part of Data Mining and Machine Learning course at Master's programm in University of Lausanne we were asked to construct the best model to predict the difficulty level of french texts. The utility of such model could be used in a recommendation system, for exemple to recommend texts, like recent news articles that are appropriate for someone’s language level. <br>
 There 6 different language levels: 
 * A1 : begginer 
