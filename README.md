@@ -5,17 +5,13 @@
 **Group members** : Emiliya AKHMETOVA, Feryel BEN RHAIEM
 
 #### This github repo contains the following folders:
-* **code** : all codes related to the project (models, functions etc) 
-* **data** : test, train and validation data 
-* **documents** : littereture review for this project 
+* **Code** : all codes related to the project (models, functions etc) 
+* **Data** : test, train and validation data 
+* **Final Submission** : all the documents related to our final submission 
 
 ## 1. Project Description : 
-As a part of Data Mining and Machine Learning course at Master's programm in University of Lausanne we were asked to find the best model to predict the difficulty level of french texts. The purpose of this project is therefore to help 
-
-You have noticed that to improve one’s skills in a new foreign language, it is important to read texts in that language. These texts have to be at the reader’s language level. However, it is difficult to find texts that are close to someone’s knowledge level (A1 to C2). You have decided to build a model for English speakers that predicts the difficulty of a French written text. This can be then used, e.g., in a recommendation system, to recommend texts, e.g, recent news articles that are appropriate for someone’s language level. If someone is at A1 French level, it is inappropriate to present a text at B2 level, as she won’t be able to understand it. Ideally, a text should have many known words and may have a few words that are unknown so that the person can improve.
-
-<br>
-There 6 different levels: 
+As a part of Data Mining and Machine Learning course at Master's programm in University of Lausanne we were asked to construct the best model to predict the difficulty level of french texts. The utility of such model could be used in a recommendation system, for exemple to recommend texts, like recent news articles that are appropriate for someone’s language level. <br>
+There 6 different language levels: 
 * A1 : begginer 
 * A2 : elementary
 * B1 : intermediate
@@ -26,7 +22,7 @@ There 6 different levels:
 ## 2. Methodology 
 In this project we have tried several algorithms. <br>
 First, we tried several **text cleaning and pre-processing** algorithms like : **tokenization** and **stop-words removal**. <br>
-We have also tried some text classification techniques like: **k-nearest neighbor**, **decision tree** and **random forest**. <br>
+Then we have tried a **logistic regression** model and we have also tried some text classification techniques like: **k-nearest neighbor**, **decision tree** and **random forest**. <br>
 Finaly, we decided to apply **BERT multilingual model**, which gave us the best results in accuracy of our predictions. <br> 
 
 ### Tokenization 
@@ -34,6 +30,8 @@ Finaly, we decided to apply **BERT multilingual model**, which gave us the best 
 
 ### Stop-words
 A [stop word](https://www.geeksforgeeks.org/removing-stop-words-nltk-python/) is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query. 
+
+### Logistic Regression 
 
 ### K-nearest neighbor 
 In machine learning, the [k-nearest neighbors algorithm (kNN)](https://github.com/kk7nc/Text_Classification/blob/master/README.rst#k-nearest-neighbor) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many researches in the past decades.
@@ -49,21 +47,38 @@ One of earlier classification algorithm for text and data mining is [decision tr
 
 ## 3. Results 
 
-### Final results <br>
-Accuracy = 0.55583
+### Log 3 : Final Results
 
-### First attempt 
-Firstly we simply built 4 models with the use of [TfidfVectorizer()](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html):
-* Logistic Regression
-* kNN
-* Decision Tree
-* Random Forests <br>
+We have obtained the following results: 
+|           | BERT multilingual | 
+| ----------| ----------------- | 
+| Precision |                   | 
+| Recall    |                   | 
+| F1 score  |                   |
+| Accuracy  |       0.55583     |
 
-Here are the results we obtained: 
+### Log 2
+In this log we just tried to train original given data on our 4 models, which we have built in our Log 1. 
 
+We have obtained the following results: 
 |           | Logistic Regression | kNN   | Decision Tree | Random Forests |
 | ----------| ------------------- | ----- | ------------- | -------------  |
 | Precision |         0.45        | 0.38  |      0.31     |      0.40      |
 | Recall    |         0.45        | 0.31  |      0.32     |      0.40      |
 | F1 score  |         0.45        | 0.29  |      0.30     |      0.39      |
 | Accuracy  |         0.45        | 0.31  |      0.32     |      0.40      |
+
+### Log 1
+In our first log we have removed stop-words from the data and then we trained our models on this data. We have built 4 models: <br>
+* Logistic Regression
+* kNN
+* Decision Tree
+* Random Forests 
+
+We have obtained the following results: 
+|           | Logistic Regression | kNN   | Decision Tree | Random Forests |
+| ----------| ------------------- | ----- | ------------- | -------------  |
+| Precision |         0.40        | 0.11  |      0.42     |      0.41      |
+| Recall    |         0.40        | 0.17  |      0.24     |      0.39      |
+| F1 score  |         0.39        | 0.06  |      0.20     |      0.38      |
+| Accuracy  |         0.40        | 0.17  |      0.24     |      0.39      |
