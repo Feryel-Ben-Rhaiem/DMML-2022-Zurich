@@ -31,7 +31,8 @@ Finaly, we decided to apply **BERT multilingual model**, which gave us the best 
 ### Stop-words
 A [stop word](https://www.geeksforgeeks.org/removing-stop-words-nltk-python/) is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query. 
 
-### Logistic Regression 
+### Logistic Regression
+[Logistic regression](https://www.javatpoint.com/logistic-regression-in-machine-learning) is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables.
 
 ### K-nearest neighbor 
 In machine learning, the [k-nearest neighbors algorithm (kNN)](https://github.com/kk7nc/Text_Classification/blob/master/README.rst#k-nearest-neighbor) is a non-parametric technique used for classification. This method is used in Natural-language processing (NLP) as a text classification technique in many researches in the past decades.
@@ -48,17 +49,17 @@ One of earlier classification algorithm for text and data mining is [decision tr
 ## 3. Results 
 
 ### Log 3 : Final Results
-
+..... <br>
 We have obtained the following results: 
 |           | BERT multilingual | 
 | ----------| ----------------- | 
 | Precision |                   | 
 | Recall    |                   | 
 | F1 score  |                   |
-| Accuracy  |       0.55583     |
+| Accuracy  |      0.55583      |
 
 ### Log 2
-In this log we just tried to train original given data on our 4 models, which we have built in our Log 1. 
+In this log we trained originally given data on our 4 models, which we have built in our Log 1. 
 
 We have obtained the following results: 
 |           | Logistic Regression | kNN   | Decision Tree | Random Forests |
@@ -69,7 +70,8 @@ We have obtained the following results:
 | Accuracy  |         0.45        | 0.31  |      0.32     |      0.40      |
 
 ### Log 1
-In our first log we have removed stop-words from the data and then we trained our models on this data. We have built 4 models: <br>
+In our first log we have removed stop-words from the data and then we trained our models on this data. <br>
+We have built 4 models: <br>
 * Logistic Regression
 * kNN
 * Decision Tree
