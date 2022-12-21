@@ -4,10 +4,10 @@
 **Group** : Zurich <br>
 **Group members** : Emiliya AKHMETOVA, Feryel BEN RHAIEM
 
-#### This github repo contains the following folders:
-* **Code** : all codes related to the project (models, functions etc) 
-* **Data** : contains train data, unlabelled test data and enriched train data (new texts were added to existing train data to enlarge our dataset to obtain better results) 
-* **Final Submission** : all the documents related to our final submission 
+#### This github repository contains the following folders:
+* **Code** : contains 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
+* **Data** : contains training data, unlabelled test data and enriched training data (new texts were added to existing train data to enlarge our dataset to obtain better results) 
+* **Final Submission** : contains one .csv file with ids of our french texts and predicted language difficulty level for final submission on keggle 
 
 ## 1. Project Description : 
 As a part of Data Mining and Machine Learning course at Master's programm in University of Lausanne we were asked to construct the best model to predict the difficulty level of french texts. The utility of such model could be used in a recommendation system, for exemple to recommend texts, like recent news articles that are appropriate for someone’s language level. <br>
