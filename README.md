@@ -6,7 +6,7 @@
 
 #### This github repo contains the following folders:
 * **Code** : all codes related to the project (models, functions etc) 
-* **Data** : test, train and validation data 
+* **Data** : contains train data, unlabelled test data and enriched train data (new texts were added to existing train data to enlarge our dataset to obtain better results) 
 * **Final Submission** : all the documents related to our final submission 
 
 ## 1. Project Description : 
