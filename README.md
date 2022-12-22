@@ -28,10 +28,7 @@ Then we have implemented a **logistic regression** model, **k-nearest neighbor**
 Finally, we applied **BERT multilingual model**, which gave us the best results in accuracy of the predictions. <br> 
 
 ### Tokenization 
-[Tokenization](https://github.com/kk7nc/Text_Classification/blob/master/README.rst#tokenization) is the process of breaking down a stream of text into words, phrases, symbols, or any other meaningful elements called tokens. The main goal of this step is to extract individual words in a sentence. 
-
-### Stop-words
-A [stop word](https://www.geeksforgeeks.org/removing-stop-words-nltk-python/) is a commonly used word (such as “le”, “une”, “de”, “la”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query. 
+[Tokenization](https://github.com/kk7nc/Text_Classification/blob/master/README.rst#tokenization) is the process of breaking down a stream of text into words, phrases, symbols, or any other meaningful elements called tokens. The main goal of this step is to extract individual words in a sentence. In the first 4 models, we vectorized our text using TfidfVectorizer(). 
 
 ### Logistic Regression
 [Logistic regression](https://www.javatpoint.com/logistic-regression-in-machine-learning) is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables.
@@ -46,7 +43,7 @@ One of earlier classification algorithm for text and data mining is [decision tr
 [Random forests](https://github.com/kk7nc/Text_Classification/blob/master/README.rst#random-forest) or random decision forests technique is an ensemble learning method for text classification. This method was introduced by T. Kam Ho in 1995 for first time which used t trees in parallel. This technique was later developed by L. Breiman in 1999 that they found converged for RF as a margin measure.
 
 ### BERT multilingual
-[BERT]([https://huggingface.co/bert-base-multilingual-cased](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-preprocess/2)) is a model pretrained on a large corpus of multilingual data in a self-supervised fashion.
+[BERT](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-preprocess/2) is a model pretrained on a large corpus of multilingual data in a self-supervised fashion.
 
 ## 🎯  Results 
 
