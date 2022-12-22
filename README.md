@@ -102,6 +102,6 @@ These are the final results obtained:
 | Precision |                   | 
 | Recall    |                   | 
 | F1 score  |                   |
-| Accuracy  |      0.55583      |
+| Accuracy  |    0.55583 🥳     |
 
 ## ▶️  Video  
