@@ -1,4 +1,4 @@
-# Data Mining and Machine Learning 2022
+# DMML 2022 - Detecting the difficulty level of French text
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_Université_de_Lausanne.svg/1280px-Logo_Université_de_Lausanne.svg.png" width="250" height="100" /> <br>
 
 **Group** : Zurich <br>
