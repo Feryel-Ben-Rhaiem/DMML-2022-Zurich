@@ -12,11 +12,11 @@
 </p>
 
 #### This github repository contains the following folders:
-* **Code** : include 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
-* **Data** : include 3 .csv files: training data, unlabelled test data and enriched training data (for better results, new records were added to the existing training data to enlarge our dataset) 
-* **Final Submission** : include 1 .csv file with ids of the unlabeled french sentences and predicted language difficulty level for final submission on [kaggle](https://www.kaggle.com/competitions/detecting-french-texts-difficulty-level-2022/overview) 
-* **Results - 4 First Models** : include 4 .png files, each one has a table for recall, precision, f1-score and accuracy results and a confusion matrix for our 4 models: logistic regression, kNN, random forest and decision tree
-* **Slides Recap** : include important imformation from the course which helped us in bulding our models
+* **Code** : includes 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
+* **Data** : includes 3 .csv files: training data, unlabelled test data and enriched training data (for better results, new records were added to the existing training data to enlarge our dataset) 
+* **Final Submission** : includes 1 .csv file with ids of the unlabeled french sentences and predicted language difficulty level for final submission on [kaggle](https://www.kaggle.com/competitions/detecting-french-texts-difficulty-level-2022/overview) 
+* **Results - 4 First Models** : includes 4 .png files, each one has a table for recall, precision, f1-score and accuracy results and a confusion matrix for our 4 models: logistic regression, kNN, random forest and decision tree
+* **Slides Recap** : includes important imformation from the course which helped us in bulding our models
 
 ## 🚧  Project Description  
 As a part of the Data Mining and Machine Learning course at the MScIS program in the University of Lausanne we constructed this model to predict the difficulty level of french text. The utility of a such model could be used in a recommendation system, for exemple to recommend text, like recent news articles that are appropriate for someone’s language level. <br>
