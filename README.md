@@ -61,7 +61,7 @@ We have built 4 models: <br>
 * Random Forests 
 
 We have obtained the following results: 
-|           | Logistic Regression | kNN   | Decision Tree | Random Forests |
+|           | Logistic Regression | kNN   | Decision Tree |  Random Forest |
 | ----------| ------------------- | ----- | ------------- | -------------  |
 | Precision |         0.40        | 0.11  |      0.42     |      0.41      |
 | Recall    |         0.40        | 0.17  |      0.24     |      0.39      |
@@ -76,7 +76,7 @@ In this try we trained the training data on our 4 models without data cleaning. 
 In this step, we tried different parameters in the different models to finally choose the ones that gave us the best results.
 
 We have obtained the following results: 
-|           | Logistic Regression | kNN   | Decision Tree | Random Forests |
+|           | Logistic Regression | kNN   | Decision Tree |  Random Forest |
 | ----------| ------------------- | ----- | ------------- | -------------  |
 | Precision |         0.46        | 0.38  |      0.29     |      0.39      |
 | Recall    |         0.46        | 0.32  |      0.29     |      0.39      |
@@ -99,7 +99,7 @@ Well... 🤖
 We used ChatGPT to generate about 30 additional sentences for each French level. Conseauently, **the accuracy went up from 53% to 55%.**
 
 These are the final results obtained: 
-|           | BERT multilingual | 
+|           | BERT Multilingual | 
 | ----------| ----------------- | 
 | Accuracy  |     0.55583 🥳    |
 
