@@ -106,9 +106,7 @@ These are the final results obtained:
 | Accuracy  |     0.55583 🥳    |
 
 ## ▶️  Video  
-<p align = center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9kISHGS8tyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
 
 ## 🔗  If you want to run the project on Google Colab 
 Click 👉 [here](https://drive.google.com/drive/folders/1kaYZfzzkylGjUnu4WIGjgQWFR3UUZlCE?usp=sharing) to access the Google Drive folder. 
