@@ -10,6 +10,7 @@
 <p align="center">
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/114418712/209107688-b89bbaa1-27ac-4a65-9f2f-ef71fdfe516e.png">
 </p>
+## 
 
 #### This github repository contains the following folders:
 * **Code** : contains 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
