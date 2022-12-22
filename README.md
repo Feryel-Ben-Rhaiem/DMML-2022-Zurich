@@ -3,8 +3,8 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_Université_de_Lausanne.svg/1280px-Logo_Université_de_Lausanne.svg.png" width="250" height="100"/> <br>
  </p>
 
-**Group** : Zurich <br>
-**Group members** : Emiliya AKHMETOVA, Feryel BEN RHAIEM
+**Team** : Zurich <br>
+**Team members** : Emiliya AKHMETOVA, Feryel BEN RHAIEM
 
 #### This github repository contains the following folders:
 * **Code** : contains 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
