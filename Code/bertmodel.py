@@ -11,6 +11,7 @@ Original file is located at
 # The model implemented is the Multilingual-base model which extends the BERT transformer architecture.
 
 # Import required packages
+import numpy as np
 import tensorflow_hub as hub
 !pip install tensorflow-text==2.11.0
 import tensorflow_text as text
