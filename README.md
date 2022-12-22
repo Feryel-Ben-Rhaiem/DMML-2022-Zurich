@@ -106,7 +106,7 @@ These are the final results obtained:
 | Accuracy  |     0.55583 🥳    |
 
 ## ▶️  Video  
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/9kISHGS8tyQ)
 
 ## 🔗  If you want to run the project on Google Colab 
 Click 👉 [here](https://drive.google.com/drive/folders/1kaYZfzzkylGjUnu4WIGjgQWFR3UUZlCE?usp=sharing) to access the Google Drive folder. 
