@@ -87,16 +87,16 @@ We have obtained the following results:
 ### Take 3 🎬 Final Results - BERT Multilingual
 
 #### How does BERT work?
-BERT (Bidirectional Encoder Representations from Transformers) is a Machine Learning model based on transformers, i.e. attention components able to learn contextual relations between words.
+[BERT](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-preprocess/2) (Bidirectional Encoder Representations from Transformers) is a Machine Learning model based on transformers, i.e. attention components able to learn contextual relations between words.
 
-We used the universal-sentence-encoder-cmlm/multilingual-base model, a universal sentence encoder that supports more than 100 languages. It is trained using a conditional masked language model.
+We used the [universal-sentence-encoder-cmlm/multilingual-base](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-base-br/1) model, a universal sentence encoder that supports more than 100 languages. It is trained using a conditional masked language model.
 
-We turned our text into high-dimensional vectors that capture sentence-level semantics. We loaded the preprocessor and the encoder layers from the endpoints provided by TensorFlow Hub, and defined a function get_embeddings() to get the embeddings from input text.
+We turned our text into high-dimensional vectors that capture sentence-level semantics. We loaded the preprocessor and the encoder layers from the endpoints provided by [TensorFlow Hub](https://www.tensorflow.org/hub), and defined a function **get_embeddings()** to get the embeddings from input text.
 
 #### More data - how?
 Well... 🤖
 
-We used ChatGPT to generate about 30 additional sentences for each French level. Conseauently, **the accuracy went up from 53% to 55%.**
+We used [ChatGPT](https://openai.com/blog/chatgpt/) to generate about 30 additional sentences for each French level. As a result, **the accuracy went up from 53% to 55%.**
 
 These are the final results obtained: 
 |           | BERT Multilingual | 
