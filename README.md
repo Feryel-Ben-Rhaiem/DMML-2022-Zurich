@@ -11,7 +11,7 @@
 * **Data** : contains training data, unlabelled test data and enriched training data (for better results, new records were added to the existing training data to enlarge our dataset) 
 * **Final Submission** : contains one .csv file with ids of the unlabeled french sentences and predicted language difficulty level for final submission on keggle 
 
-## :mag: 1. Project Description  
+## 🚧 1. Project Description  
 As a part of the Data Mining and Machine Learning course at the MScIS program in the University of Lausanne we constructed this model to predict the difficulty level of french text. The utility of a such model could be used in a recommendation system, for exemple to recommend text, like recent news articles that are appropriate for someone’s language level. <br>
 There 6 different CEFR French Levels: 
 * A1 : Beginner 
@@ -21,7 +21,7 @@ There 6 different CEFR French Levels:
 * C1 : Advanced
 * C2 : Native
 
-## 2. Methodology 
+## 🤔 2. Methodology 
 In this project we have tried several algorithms. <br>
 First, we tried several **text cleaning and pre-processing** algorithms like : **tokenization** and **stop-words removal**. <br>
 Then we have implemented a **logistic regression** model, **k-nearest neighbor**, **decision tree** and **random forest**. <br>
@@ -48,7 +48,7 @@ One of earlier classification algorithm for text and data mining is [decision tr
 ### BERT multilingual
 [BERT]([https://huggingface.co/bert-base-multilingual-cased](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-preprocess/2)) is a model pretrained on a large corpus of multilingual data in a self-supervised fashion.
 
-## 3. Results 
+## 🎯 3. Results 
 
 ### Take 1
 In our first try we have removed stop-words from the data and then we trained our models on this data. <br>
