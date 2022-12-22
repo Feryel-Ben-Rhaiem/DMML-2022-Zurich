@@ -106,7 +106,7 @@ These are the final results obtained:
 | Accuracy  |     0.55583 🥳    |
 
 ## ▶️  Video  
-[![IMAGE ALT TEXT HERE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.fatquartershop.com%2Fyoutube-channel-membership%2F&psig=AOvVaw0PH5cXaVl54PqbVORs81Eu&ust=1671805728227000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCTq-e3jfwCFQAAAAAdAAAAABAE)](https://youtu.be/9kISHGS8tyQ)
+
 
 ## 🔗  If you want to run the project on Google Colab 
 Click 👉 [here](https://drive.google.com/drive/folders/1kaYZfzzkylGjUnu4WIGjgQWFR3UUZlCE?usp=sharing) to access the Google Drive folder. 
