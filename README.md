@@ -50,7 +50,7 @@ One of earlier classification algorithm for text and data mining is [decision tr
 ### BERT multilingual
 [BERT](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-preprocess/2) is a model pretrained on a large corpus of multilingual data in a self-supervised fashion.
 
-## 🎯  Results 
+## 🎯  Implementation & Results 
 
 ### Take 1 🎬
 In our first try we have removed stop-words from the data and then we trained our models on this data. <br>
