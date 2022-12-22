@@ -7,7 +7,7 @@
 **Team members** : Emiliya AKHMETOVA, Feryel BEN RHAIEM
 
 ##   
-![Alt Text](https://tenor.com/en-GB/view/joey-tribbiani-dude-come-on-french-it-up-play-along-chill-out-gif-23087893)
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fjoey-tribbiani-dude-come-on-french-it-up-play-along-chill-out-gif-23087893&psig=AOvVaw2gqCzeZ6yEe1_4QRr6UgC5&ust=1671788895310000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDI6Iv5jPwCFQAAAAAdAAAAABAE)![image](https://user-images.githubusercontent.com/114418712/209106979-60989e9d-d4bd-46dd-a7c4-dd27b7dffb5f.png"/> <br>
 
 #### This github repository contains the following folders:
 * **Code** : contains 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
