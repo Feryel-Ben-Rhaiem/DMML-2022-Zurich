@@ -70,7 +70,7 @@ We have obtained the following results:
 
 
 ### Take 2 🎬
-In this try we trained the training data on our 4 models without data cleaning. We used a pipeline to vectorize the data using TfidfVectorizer() and then applied each model. 
+In this try we trained the training data on our 4 models without data cleaning. We used a pipeline to vectorize the data using [TfidfVectorizer()](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) and then applied each model. 
 
 #### Fine Tuning
 In this step, we tried different parameters in the different models to finally choose the ones that gave us the best results.
