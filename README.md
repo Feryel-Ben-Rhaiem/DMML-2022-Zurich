@@ -101,9 +101,10 @@ Well... 🤖
 We used [ChatGPT](https://openai.com/blog/chatgpt/) to generate about 30 additional sentences for each French level. As a result, **the accuracy went up from 53% to 55%.**
 
 These are the final results obtained: 
-|           | BERT Multilingual | 
-| ----------| ----------------- | 
-| Accuracy  |     0.55583 🥳    |
+|                            | BERT Multilingual | 
+| -------------------------- |                   | 
+| Accuracy - training data   |     0.60          |
+| Accuracy - unlabeled data  |     0.55583 🥳    |
 
 ## ▶️  Video  
 Click 👉 [here](https://youtu.be/9kISHGS8tyQ) to see the video.
