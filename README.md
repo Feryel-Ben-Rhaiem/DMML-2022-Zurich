@@ -106,7 +106,7 @@ These are the final results obtained:
 ## ▶️  Video  
 
 
-## 🔗  If you want to run the project on Google Colab: 
+## 🔗  If you want to run the project on Google Colab 
 Click 👉 [here](https://drive.google.com/drive/folders/1kaYZfzzkylGjUnu4WIGjgQWFR3UUZlCE?usp=sharing) to access the Google Drive folder. 
 
 ## ✅  Voilà!  
