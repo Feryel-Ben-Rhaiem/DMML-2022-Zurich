@@ -96,9 +96,6 @@ We used ChatGPT to generate about 30 additional sentences for each French level.
 These are the final results obtained: 
 |           | BERT multilingual | 
 | ----------| ----------------- | 
-| Precision |                   | 
-| Recall    |                   | 
-| F1 score  |                   |
 | Accuracy  |     0.55583 🥳    |
 
 ## ▶️  Video  
