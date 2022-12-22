@@ -1,6 +1,4 @@
-<p align="center">
 # DMML 2022 - Detecting the difficulty level of French text
-</p>
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_Université_de_Lausanne.svg/1280px-Logo_Université_de_Lausanne.svg.png" width="250" height="100"/> <br>
  </p>
