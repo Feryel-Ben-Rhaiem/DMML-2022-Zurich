@@ -11,7 +11,7 @@
 * **Data** : contains training data, unlabelled test data and enriched training data (for better results, new records were added to the existing training data to enlarge our dataset) 
 * **Final Submission** : contains one .csv file with ids of the unlabeled french sentences and predicted language difficulty level for final submission on keggle 
 
-## 🚧 Project Description  
+## 🚧  Project Description  
 As a part of the Data Mining and Machine Learning course at the MScIS program in the University of Lausanne we constructed this model to predict the difficulty level of french text. The utility of a such model could be used in a recommendation system, for exemple to recommend text, like recent news articles that are appropriate for someone’s language level. <br>
 There 6 different CEFR French Levels: 
 * A1 : Beginner 
@@ -21,7 +21,7 @@ There 6 different CEFR French Levels:
 * C1 : Advanced
 * C2 : Native
 
-## 🤔 Methodology 
+## 🤔  Methodology 
 In this project we have tried several algorithms. <br>
 First, we tried several **text cleaning and pre-processing** algorithms like : **tokenization** and **stop-words removal**. <br>
 Then we have implemented a **logistic regression** model, **k-nearest neighbor**, **decision tree** and **random forest**. <br>
@@ -48,7 +48,7 @@ One of earlier classification algorithm for text and data mining is [decision tr
 ### BERT multilingual
 [BERT]([https://huggingface.co/bert-base-multilingual-cased](https://tfhub.dev/google/universal-sentence-encoder-cmlm/multilingual-preprocess/2)) is a model pretrained on a large corpus of multilingual data in a self-supervised fashion.
 
-## 🎯 Results 
+## 🎯  Results 
 
 ### Take 1 🎬
 In our first try we have removed stop-words from the data and then we trained our models on this data. <br>
@@ -76,15 +76,27 @@ In this step, we tried different parameters in the different models to finally c
 We have obtained the following results: 
 |           | Logistic Regression | kNN   | Decision Tree | Random Forests |
 | ----------| ------------------- | ----- | ------------- | -------------  |
-| Precision |         0.45        | 0.38  |      0.31     |      0.40      |
-| Recall    |         0.45        | 0.31  |      0.32     |      0.40      |
-| F1 score  |         0.45        | 0.29  |      0.30     |      0.39      |
-| Accuracy  |         0.45        | 0.31  |      0.32     |      0.40      |
+| Precision |         0.46        | 0.38  |      0.29     |      0.39      |
+| Recall    |         0.46        | 0.32  |      0.29     |      0.39      |
+| F1 score  |         0.46        | 0.29  |      0.28     |      0.38      |
+| Accuracy  |         0.46        | 0.32  |      0.29     |      0.39      |
 
 
 ### Take 3 🎬 Final Results - BERT Multilingual
-..... <br>
-We have obtained the following results: 
+
+#### How does BERT work?
+BERT (Bidirectional Encoder Representations from Transformers) is a Machine Learning model based on transformers, i.e. attention components able to learn contextual relations between words.
+
+We used the universal-sentence-encoder-cmlm/multilingual-base model, a universal sentence encoder that supports more than 100 languages. It is trained using a conditional masked language model.
+
+We turned our text into high-dimensional vectors that capture sentence-level semantics. We loaded the preprocessor and the encoder layers from the endpoints provided by TensorFlow Hub, and defined a function get_embeddings() to get the embeddings from input text.
+
+#### More data - how?
+Well... 🤖
+
+We used ChatGPT to generate about 30 additional sentences for each French level. Conseauently, **the accuracy went up from 53% to 55%.**
+
+These are the final results obtained: 
 |           | BERT multilingual | 
 | ----------| ----------------- | 
 | Precision |                   | 
