@@ -6,6 +6,9 @@
 **Team** : Zurich <br>
 **Team members** : Emiliya AKHMETOVA, Feryel BEN RHAIEM
 
+##   
+![Alt Text]([https://media.giphy.com/media/lD76yTC5zxZPG/giphy.gif?cid=ecf05e47pkj3l2rpocnzkqvb15hb5fs9rg5auaw5b5ge7nek&rid=giphy.gif&ct=g](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.languagetrainers.ca%2Fblog%2Fwhy-we-should-stop-worrying-about-the-decline-of-the-french-language%2F&psig=AOvVaw18kkZb7FqHIlFPvCFpP23h&ust=1671788514841000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOj39NX3jPwCFQAAAAAdAAAAABAJ))
+
 #### This github repository contains the following folders:
 * **Code** : contains 6 .py files for Exploratory Data Analysis (EDA), data preparation, 4 models and their functions and final BERT model and its functions. 
 * **Data** : contains training data, unlabelled test data and enriched training data (for better results, new records were added to the existing training data to enlarge our dataset) 
